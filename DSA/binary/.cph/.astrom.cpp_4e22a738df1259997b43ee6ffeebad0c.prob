@@ -1,0 +1,1 @@
+{"name":"Local: astrom","url":"d:\\binary\\astrom.cpp","tests":[{"id":1621196585293,"input":"123\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\binary\\astrom.cpp","group":"local","local":true}

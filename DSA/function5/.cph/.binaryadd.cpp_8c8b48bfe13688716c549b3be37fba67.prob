@@ -1,0 +1,1 @@
+{"name":"Local: binaryadd","url":"d:\\function5\\binaryadd.cpp","tests":[{"id":1620931772488,"input":"10101 11011","output":""},{"id":1620932180767,"input":"","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\function5\\binaryadd.cpp","group":"local","local":true}

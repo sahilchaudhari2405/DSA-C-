@@ -1,0 +1,1 @@
+{"name":"Local: array5","url":"d:\\array\\array5.cpp","tests":[{"id":1622346266816,"input":"5\n1 2 0 7 2","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\array\\array5.cpp","group":"local","local":true}

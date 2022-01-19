@@ -1,0 +1,1 @@
+{"name":"Local: hello","url":"d:\\binary\\.vscode\\hello.cpp","tests":[{"id":1621196557371,"input":"","output":""},{"id":1621197969505,"input":"","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\binary\\.vscode\\hello.cpp","group":"local","local":true}

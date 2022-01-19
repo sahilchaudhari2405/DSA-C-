@@ -1,0 +1,1 @@
+{"name":"Local: natural","url":"d:\\binary\\natural.cpp","tests":[{"id":1620676035344,"input":"fgh","output":""},{"id":1621196513026,"input":"","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\binary\\natural.cpp","group":"local","local":true}

@@ -1,0 +1,36 @@
+#include<iostream>
+#include<bits\stdc++.h>
+using namespace std;
+void solve(vector<int>nums,vector<vector<int>> & ans,int idx){
+    if (idx==nums.size())
+    {
+        ans.push_back(nums);
+        return;
+    }
+    for (int i=idx;i<nums.size();i++)
+    {
+        swap(nums[i],nums[idx]);
+        solve(nums,ans,idx+1);
+        swap(nums[i],nums[idx]);
+    }
+    
+}
+vector<vector<int>> permute(vector<int>num){
+    vector<vector<int>>ans;
+    
+    solve(num,ans,0);
+    return ans;
+
+}
+int main(){
+    vector<vector<int>>res =permute({1,2,3,4});
+    for(auto ii:res){
+       for(auto i:ii){
+           cout<<i<<" "<<endl;
+       }
+    }
+    cout<<'\n';
+
+
+       
+}

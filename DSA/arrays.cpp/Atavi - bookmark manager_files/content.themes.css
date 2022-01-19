@@ -1,0 +1,290 @@
+.content {
+    background: none !important;
+}
+#content {
+    background: #e3eaee url('/i/fog.png') no-repeat center 0px;
+}
+.js-popup-browser-theme.ui-widget-overlay {
+	overflow: auto;
+}
+.browser-themes .content .description {
+    text-align: center;
+    margin: 10px auto 0;
+    color: #5e6468;
+    font-size: 16px;
+    width: 857px;
+}
+.content .browser-themes h1 {
+    color: #111;
+    font-size: 34px;
+}
+.browser-themes .items .category {
+	margin-bottom: 100px;
+    text-align: center;
+}
+.browser-themes .items .view-all {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.browser-themes .view-all a {
+	color: #11a2db;
+	text-decoration: none;
+	font-size: 12px
+}
+.browser-themes .view-all a:hover {
+	text-decoration: underline;
+}
+.browser-themes .items .title-category {
+	color: #2a2d35;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+}
+.browser-themes .items .title-category:hover {
+	color: #828a8e;
+}
+.browser-themes .items {
+    width: 1000px;
+    margin: 30px auto 0;
+    padding-bottom: 80px;
+}
+.browser-themes .item,
+.popup-browser-theme .item {
+    width: 250px;
+    height: 180px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    cursor: pointer;
+}
+
+.browser-themes .item .preview,
+.popup-browser-theme .item .preview {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: top center;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+	display: block;
+	cursor: pointer;
+}
+.browser-themes .item .preview:hover,
+.popup-browser-theme .item .preview:hover {
+    -webkit-transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+    -o-transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+    opacity: 0.7;
+}
+
+.browser-themes .item .install,
+.popup-browser-theme .item .install {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0,0,0,0.2);
+    color: #fff;
+    width: 100%;
+	display:none;
+}
+.browser-themes .item:hover .install,
+.popup-browser-theme .item:hover .install {
+    display:block
+}
+.browser-themes .item .install .title,
+.popup-browser-theme .item .install .title {
+    padding: 10px;
+    text-align: center;
+	font-size: 14px;
+	display: block;
+}
+
+.popup-browser-theme {
+    width: 100%;
+    padding-bottom: 70px;
+    position: absolute;
+	top:50px;
+}
+.browser-themes .popup-browser-theme {
+    position: relative;
+}
+.browser-themes .popup-browser-theme h1 {
+	text-align: left;
+	font-size: 28px;
+	line-height: 28px;
+	margin-bottom: 10px;
+	color: #222;
+	padding: 0;
+}
+.popup-browser-theme-inner {
+    width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+.popup-browser-theme-inner .view-all {
+    text-align: right;
+}
+.popup-browser-theme .preview {
+    width: 650px;
+    height: 650px;
+    background-size: cover;
+    background-position: top center;
+	background-color: #aaa;
+    float: left;
+}
+
+.popup-browser-theme .info {
+	width: 350px;
+    height: 650px;
+    float: right;
+    background: #fff;
+	position: relative;
+}
+.popup-browser-theme .info-inner {
+	padding: 50px 40px;
+	position: relative;
+}
+.popup-browser-theme .info-inner .close-btn {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	background: url('/i/close-icon.png') no-repeat;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+}
+.popup-browser-theme .info-inner .close-btn:hover {
+	opacity:0.6;
+}
+.popup-browser-theme .info-inner .title {
+	font-size: 28px;
+	line-height: 28px;
+	margin-bottom: 10px;
+	color: #222;
+}
+.popup-browser-theme .info-inner .category {
+	font-size: 12px;
+	color: #888;
+	margin-bottom: 15px;
+}
+.popup-browser-theme .info-inner .desc {
+	color: #222;
+	margin-bottom: 10px;
+}
+.popup-browser-theme .info-inner .message {
+	font-size: 12px;
+	color: #222;
+	margin-bottom: 50px;
+	width: 190px;
+}
+.popup-browser-theme .info-inner .install {
+	padding: 14px 35px;
+	background: #00A5E3;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 35px;
+	margin-left: -10px;
+}
+.popup-browser-theme .info-inner .install:hover {
+	background: #10B5F3;
+}
+.popup-browser-theme .social {
+	width: 350px;
+	height: 110px;
+	position: absolute;
+	bottom: 0;
+}
+.popup-browser-theme .social-title {
+	text-align: center;
+	font-size: 13px;
+	color: #888;
+	margin-bottom: 15px;
+}
+.browser-themes .process .load,
+.popup-browser-theme.process .load,
+.item.process .popup-browser-theme-inner .load {
+	background: #eee url("/i/d/load-big-gray.gif") no-repeat center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0.8;
+}
+
+.popup-browser-theme .similar {
+	background: #fff;
+	margin-top: 17px;
+	height: 298px;
+}
+.popup-browser-theme .similar .title-top {
+	padding: 50px 40px 40px;
+	font-size: 28px;
+	line-height: 28px;
+	color: #222;
+}
+
+.ui-dialog.dialog-theme-preview {
+    overflow: hidden;
+    padding-bottom: 0;
+}
+.dialog-theme-preview .ui-dialog-titlebar {
+    height: 70px;
+    border-radius: 0;
+    display: none;
+}
+.dialog-theme-preview .ui-dialog-content {
+    margin-top: 0;
+}
+.popup-theme-preview {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: top center;
+    border-radius: 0 0 5px 5px;
+    position: relative;
+}
+.popup-theme-preview .info {
+    position: absolute;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    top: 0;
+    bottom: initial;
+}
+.popup-theme-preview .info .wrapper {
+    padding: 30px 30px;
+    text-align: center;
+}
+.popup-theme-preview .info .vcentered-container {
+    margin: 0 auto;
+}
+.popup-theme-preview .info .install {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #00A5E3;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+    margin-left: 15px;
+    min-width: 80px;
+    outline: none;
+}
+.popup-theme-preview .info .install:hover {
+    background-color: #40bef2;
+}
+.popup-theme-preview .info .install:active {
+    background-color: #418ead;
+}
+.vcentered-container {
+    display: table;
+}
+.vcentered {
+    display: table-cell;
+    vertical-align: middle;
+}
